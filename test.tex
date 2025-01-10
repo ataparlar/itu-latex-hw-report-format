@@ -1,0 +1,147 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, margin=1in, top=1.4in, headheight=1in]{geometry}\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+
+
+\definecolor{itu_laci}{HTML}{01437A}
+
+
+\fancypagestyle{title_page}{
+    \fancyhf{}
+    
+    \fancyhead[L]{%
+        \begin{tikzpicture}[remember picture, overlay]
+            \fill[itu_laci] (-0.05, 2.52) rectangle ++(8.7884,-0.6096);
+        \end{tikzpicture}%
+     }
+
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
+}
+
+
+\fancypagestyle{plain}{
+    \fancyhf{}
+
+    % Header
+    \fancyhead[L]{%
+        \begin{tikzpicture}[remember picture, overlay]
+            \fill[itu_laci] (-0.05,1.84) rectangle ++(8.7884,-0.6096);
+        \end{tikzpicture}%
+        \hspace{-0.4cm}
+        \color{itu_laci}
+        \begin{tabular}{ l l }
+            Prepared by: & PREPARED BY \\
+            Report Name: & REPORT NAME \\
+        \end{tabular}%
+        \vspace{0.48cm}
+     }
+
+     \fancyhead[R]{%
+        \vspace{0.29cm}
+        \includegraphics[width=4.0894cm]{logo_laci.png} % Replace with your actual image file path
+     }
+
+    % Footer
+    \fancyfoot[L]{%
+        \begin{tikzpicture}[remember picture, overlay]
+            \fill[itu_laci] (-0.05,-1.58) rectangle ++(8.7884,0.6096);
+        \end{tikzpicture}%
+        \color{itu_laci}
+        \textbf{\sffamily ISTANBUL TECHNICAL UNIVERSITY}%
+    }
+    
+    \fancyfoot[R]{\color{itu_laci}\sffamily \thepage}
+
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
+}
+
+
+
+
+\begin{document}
+
+\begin{titlepage}
+    \thispagestyle{title_page}
+
+    \raggedleft%
+    \includegraphics[width=5.4102cm]{logo_laci.png}\\ % Replace with your logo file path
+
+    \vspace{2cm}
+
+    \raggedright%
+    {\sffamily \Huge{\textit{COURSE CODE}}\\[1cm]}
+    {\sffamily \LARGE{\textit{COURSE NAME}}\\[0.5cm]}
+    \begin{tikzpicture}[remember picture, overlay]
+        \fill[itu_laci] (-2.6cm, 0.0) rectangle ++(0.68in ,0.3in);
+    \end{tikzpicture}%
+    {\sffamily \Large{\textit{REPORT}}\\[2cm]}
+    
+    \vfill
+    
+    \textbf{\large{Prepared by}} \\[0.5cm]
+    \begin{tabular}{ll}
+        \textbf{Name Surname:} & Ata Parlar \\
+        \textbf{Student Number:} & 706241005 \\
+        \textbf{Delivery Date:} & 23/12/2024 \\
+    \end{tabular} \\[1cm]
+    
+    \textbf{Course Name:} LECTURE NAME \\[0.5cm]
+    \textbf{Course Lecturer:} LECTURER
+    
+    \vfill
+    
+    
+\end{titlepage}
+
+
+% Apply the fancy header/footer style
+\pagestyle{plain}
+
+\section{test}
+\pagenumbering{arabic}
+
+
+
+
+%  % Draw a rectangle
+% \begin{tikzpicture}
+%     \fill[itu_laci] (0,0) rectangle (3,1); % Rectangle from (0,0) to (5,3)
+% \end{tikzpicture}
+
+
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text some other text 
+
+
+
+\end{document}
